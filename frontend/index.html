@@ -1,0 +1,25 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EHS Assistant Chatbot</title>
+    <!-- Tailwind CSS CDN - Ensure it's loaded before your main script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Global styles for Inter font */
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- IMPORTANT: Changed ID from 'app' to 'root' to match src/main.tsx -->
+    <div id="root"></div>
+    <!-- Ensure this path is correct for your main TypeScript entry file -->
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General body font */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* You might need to add specific Ant Design override styles here if necessary */
+/* For example, to adjust default padding or margins */
+.ant-drawer-body {
+    padding: 16px !important; /* Adjust if Ant Design default padding is too much */
+}
